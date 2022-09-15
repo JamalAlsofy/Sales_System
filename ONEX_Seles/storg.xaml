@@ -1,0 +1,15 @@
+﻿<Window x:Class="ONEX_Seles.storg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ONEX_Seles"
+        mc:Ignorable="d"
+        Title="storg" Height="327.51" Width="444.156">
+    <Grid HorizontalAlignment="Left" Width="1270" Height="510" VerticalAlignment="Bottom" Margin="0,0,0,22">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+    </Grid>
+</Window>

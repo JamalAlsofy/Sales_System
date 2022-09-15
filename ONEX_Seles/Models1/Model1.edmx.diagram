@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="acb48c1ba94f46e1b18a08d4e9c2269b" Name="Diagram1" ZoomLevel="81">
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.C_Acc_Setting" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.C_Genral_Setting" Width="1.5" PointX="9.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.C_Inv_Setting" Width="1.5" PointX="14.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.C_Purch_Setting" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.C_Sales_Setting" Width="1.5" PointX="22.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_AccountLinked" Width="1.5" PointX="22.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_Accounts" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_Cash_AtBank" Width="1.5" PointX="22.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_Cash_InHand" Width="1.5" PointX="19.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_CashBnk_Currency" Width="1.5" PointX="14.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_Collectors" Width="1.5" PointX="16.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_CostCenter_Projects" Width="1.5" PointX="21.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_Currency" Width="1.5" PointX="23.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_OpenBalance" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_Transaction_DTL" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_Transaction_MST" Width="1.5" PointX="0.625" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_VisaTypes" Width="1.5" PointX="24.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Acc_VisaTypes_Comm" Width="1.5" PointX="24.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_AccountLinked" Width="1.5" PointX="24.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_AccountLinkeds" Width="1.5" PointX="25.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Favorite_Groups" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Item_Barcode" Width="1.5" PointX="0.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Item_Types" Width="1.5" PointX="2.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Item_Units" Width="1.5" PointX="26.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Items" Width="1.5" PointX="4.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Items_Classification" Width="1.5" PointX="26.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Items_Pricing" Width="1.5" PointX="12.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Items_Suppliers" Width="1.5" PointX="26.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Itm_Mov" Width="1.5" PointX="14.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Itm_Mov2" Width="1.5" PointX="16.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Main_Groups" Width="1.5" PointX="27.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_OpeningBalance" Width="1.5" PointX="18.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Pricing_Levels" Width="1.5" PointX="27.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Receiving_DTL" Width="1.5" PointX="10" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Receiving_MST" Width="1.5" PointX="7.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Store_Places" Width="1.5" PointX="27.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Stores" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Storing" Width="1.5" PointX="28.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Trans_In_DTL" Width="1.5" PointX="10" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Trans_In_MST" Width="1.5" PointX="7.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Trans_Out_DTL" Width="1.5" PointX="8" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Trans_Out_MST" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Transfer_DTL" Width="1.5" PointX="20" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Transfer_MST" Width="1.5" PointX="17.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Transfer_Receiving_Types" Width="1.5" PointX="6.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Trns_Types" Width="1.5" PointX="8.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Units" Width="1.5" PointX="28.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Burdens" Width="1.5" PointX="20.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Invoice_Burdens" Width="1.5" PointX="28.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Invoice_DTL" Width="1.5" PointX="20" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Invoice_Expenses" Width="1.5" PointX="29.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Invoice_Installment" Width="1.5" PointX="22.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Invoice_MST" Width="1.5" PointX="17.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Refund_Invoice_DTL" Width="1.5" PointX="29.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Refund_Invoice_MST" Width="1.5" PointX="24.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Suppler_Cur" Width="1.5" PointX="15" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_SupplerGroups" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Supplers" Width="1.5" PointX="12.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sales_Customer_Cur" Width="1.5" PointX="0.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sales_CustomerGroups" Width="1.5" PointX="30.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sales_Customers" Width="1.5" PointX="30.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sales_Invoice_DTL" Width="1.5" PointX="5.25" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sales_Invoice_Mst" Width="1.5" PointX="3" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sales_Refund_Invoice_DTL" Width="1.5" PointX="15" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sales_Refund_Invoice_MST" Width="1.5" PointX="12.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_Areas" Width="1.5" PointX="10.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_BRN" Width="1.5" PointX="31.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_CMP" Width="1.5" PointX="31.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_CodeList" Width="1.5" PointX="31.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_ExecptionAchive" Width="1.5" PointX="26.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_FiscalMonths" Width="1.5" PointX="31.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_FiscalYears" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_Lists" Width="1.5" PointX="32.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_Machines" Width="1.5" PointX="6.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_Perm_Definition" Width="1.5" PointX="32.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_Rep_Tmplts" Width="1.5" PointX="32.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_Rep_Types" Width="1.5" PointX="19.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_ReportHeaderFoter2" Width="1.5" PointX="28.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.sys_SystemTree" Width="1.5" PointX="0.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_Trans_Types" Width="1.5" PointX="12.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_UserLog" Width="1.5" PointX="33.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Sys_Users" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Trans_In_DTL_Deleted" Width="1.5" PointX="18.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Inv_Trans_Out_DTL_Deleted" Width="1.5" PointX="33.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Invoice_DTL_Deleted" Width="1.5" PointX="20.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.Purch_Refund_Invoice_DTL_Deleted" Width="1.5" PointX="33.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.tst" Width="1.5" PointX="33.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.View_2" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_FillItemsPricing" Width="1.5" PointX="2.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_FillOpeningBalance" Width="1.5" PointX="34.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_Inv_ItemsLov" Width="1.5" PointX="34.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_Inv_ItmPricingBrowse" Width="1.5" PointX="8.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_Inv_OpenBalanceBrowse" Width="1.5" PointX="34.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_ItmUntPricing" Width="1.5" PointX="30.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_Pur_Rep_Debt_Aging" Width="1.5" PointX="4.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_AccSheet" Width="1.5" PointX="35.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_AccVouchers" Width="1.5" PointX="35.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Audit_Balance" Width="1.5" PointX="36.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Audit_Balance1" Width="1.5" PointX="10.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Inv_ItmPricing" Width="1.5" PointX="12.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Inv_OpeningBalance" Width="1.5" PointX="37.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Inv_Stor_Movment1" Width="1.5" PointX="37.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Inv_Storing_Movment" Width="1.5" PointX="37.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Inv_Storing_Movment_TurnOverSales" Width="1.5" PointX="26.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Inv_Storing_Movments" Width="1.5" PointX="38.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Inv_Storing1" Width="1.5" PointX="0.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Inv_TransferDTL" Width="1.5" PointX="6.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Inv_TransferMST" Width="1.5" PointX="37.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_ItemsData" Width="1.5" PointX="39.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_PurInvoiceDTL" Width="1.5" PointX="14.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_PurInvoiceDTL_Sub" Width="1.5" PointX="39.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_PurInvoiceEXP" Width="1.5" PointX="22.75" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_PurInvoiceMST" Width="1.5" PointX="39.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_PurNet_MST" Width="1.5" PointX="16.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_RefundInvoiceDTL" Width="1.5" PointX="28.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_RefundInvoiceMST" Width="1.5" PointX="40.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Sal_Customers" Width="1.5" PointX="30.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Sal_Debt_Aging" Width="1.5" PointX="41.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Sal_InvoiceDTL" Width="1.5" PointX="41.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Sal_InvoiceMST" Width="1.5" PointX="41.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Sal_ProfitMargin" Width="1.5" PointX="18.75" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Sal_RefundInvoiceDTL" Width="1.5" PointX="43.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Sal_RefundInvoiceMST" Width="1.5" PointX="43.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_SalNet_MST" Width="1.5" PointX="20.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_SerialsWithProcCode" Width="1.5" PointX="22.75" PointY="43.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_rep_Supplyer" Width="1.5" PointX="43.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AccSys_JZ20171Model1.vw_ReportHeaderFoter2" Width="1.5" PointX="43.75" PointY="33.75" IsExpanded="true" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Acc_Transaction_DTL_Acc_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Sales_Invoice_Mst_Acc_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Acc_Transcation_DTL_Acc_Transaction_MST" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Inv_Receiving_DTL_Inv_Receiving_MST" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Inv_Trans_In_DTL_Inv_Trans_In_MST" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Inv_Trans_In_MST_Inv_Trans_In_MST" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Inv_Trans_Out_DTL_Inv_Trans_Out_MST" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Inv_Trans_Out_MST_Inv_Trans_Out_MST" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Inv_Transfer_DTL_Inv_Transfer_DTL" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Purch_Invoice_DTL_Purch_Invoice_MST" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.Rel_Cur" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Sales_Invoice_DTL_Sales_Invoice_Mst" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Sales_Invoice_Mst_Sales_Invoice_Mst" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Sales_Refund_Invoice_DTL_Sales_Refund_Invoice_MST" ManuallyRouted="false" />
+        <AssociationConnector Association="AccSys_JZ20171Model1.FK_Sys_Users_Sys_Users" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

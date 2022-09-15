@@ -1,0 +1,59 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ONEX_Seles"
+        xmlns:controlzex="urn:controlzex" x:Class="ONEX_Seles.MenuRound"
+        mc:Ignorable="d"
+        Title="MenuRound" Height="722" Width="1749">
+    <Grid Margin="10,10,42,34">
+        <DataGrid x:Name="DataGritXAML1" Margin="29,320,52,0" AlternatingRowBackground="Gray" CanUserAddRows="False" CanUserDeleteRows="True" CanUserReorderColumns="True" CanUserResizeColumns="True" CanUserSortColumns="True" AllowDrop="True" Background="#FFF6F9FD" BorderBrush="#891347F9" SnapsToDevicePixels="True" ClipToBounds="True" RenderTransformOrigin="0.5,0.5" FlowDirection="RightToLeft" Height="285" VerticalAlignment="Top">
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Background" Value="Turquoise"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="BorderThickness" Value="0,0,3,2"/>
+                    <Setter Property="BorderBrush" Value="Black"/>
+                    <Setter Property="Height" Value="30"/>
+
+
+                </Style>
+            </DataGrid.Resources>
+           
+            <DataGrid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.682"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-1.488"/>
+                </TransformGroup>
+            </DataGrid.RenderTransform>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="  رقم الصنف " Binding="{Binding proNo}" Width="100"/>
+                <DataGridTextColumn Header=" اسم الصنف " Binding="{Binding proName}" Width="200"/>
+                <DataGridTextColumn Header="  الكمية" Binding="{Binding proQountity}" Width="70"/>
+                <DataGridTextColumn Header=" سعر الوحدة " Binding="{Binding proOnePric}" Width="100"/>
+                <DataGridTextColumn Header="  السعر " Binding="{Binding proPric}" Width="100"/>
+                <DataGridTextColumn Header="  تفاصيل الصنف" Binding="{Binding proDitails}" Width="500"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Label Content="رقم  الصنف : " HorizontalAlignment="Left" Margin="840,84,0,0" VerticalAlignment="Top" Height="39" Width="86" FontSize="14" FontWeight="Bold" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="txtproNo" HorizontalAlignment="Left" Height="42" Margin="790,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" FontSize="16" FlowDirection="RightToLeft"/>
+        <Button Content="اضافة" HorizontalAlignment="Left" Margin="779,255,0,0" VerticalAlignment="Top" Width="130" Click="Button_Click"/>
+        <Button Content="جديد" HorizontalAlignment="Left" Margin="584,255,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click_1"/>
+        <Label Content="اسم الصنف : " HorizontalAlignment="Left" Margin="675,84,0,0" VerticalAlignment="Top" Height="39" Width="86" FontSize="14" FontWeight="Bold" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="txtproName" HorizontalAlignment="Left" Height="44" Margin="575,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="16" FlowDirection="RightToLeft"/>
+        <Label Content="الكمية" HorizontalAlignment="Left" Margin="840,153,0,0" VerticalAlignment="Top" Height="39" Width="56" FontSize="14" FontWeight="Bold" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="txtQountity" HorizontalAlignment="Left" Height="55" Margin="796,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" FontSize="16" FlowDirection="RightToLeft"/>
+        <Label Content="السعر" HorizontalAlignment="Left" Margin="489,149,0,0" VerticalAlignment="Top" Height="39" Width="86" FontSize="14" FlowDirection="RightToLeft" FontWeight="Bold"/>
+        <TextBox x:Name="txtPric" HorizontalAlignment="Left" Height="27" Margin="425,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="16" FlowDirection="RightToLeft"/>
+        <Label Content="سعر الوحدة" HorizontalAlignment="Left" Margin="689,153,0,0" VerticalAlignment="Top" Height="39" Width="86" FontSize="14" FontWeight="Bold" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="txtOnePric" HorizontalAlignment="Left" Height="40" Margin="584,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" FontSize="16" FlowDirection="RightToLeft"/>
+        <Label Content="الاجمالي : " HorizontalAlignment="Left" Margin="131,84,0,0" VerticalAlignment="Top" Height="27" Width="86" FontSize="14" FontWeight="Bold" FlowDirection="RightToLeft"/>
+        <TextBox x:Name="txtPric_Copy" HorizontalAlignment="Left" Height="43" Margin="35,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100" FontSize="16" FlowDirection="RightToLeft"/>
+
+    </Grid>
+
+</Window>

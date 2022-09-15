@@ -1,0 +1,91 @@
+﻿<Window x:Class="ONEX_Seles.RecivedWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:ONEX_Seles"
+        mc:Ignorable="d"
+        Title="RecivedWin" Height="600" Width="1024" WindowStartupLocation="CenterScreen" WindowStyle="None" Icon="Assets/kk.png">
+    <Grid HorizontalAlignment="Left" Width="1016" Margin="0,-29,0,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/P19.jpg"/>
+        </Grid.Background>
+        <Button x:Name="buNewC" Content="اضافة" HorizontalAlignment="Left" Margin="497,471,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" Click="BuNewC_Click" Height="62" BorderBrush="#FFDCD6E8" BorderThickness="3" Background="#FF6A8BE2">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox x:Name="txtCustNoR" HorizontalAlignment="Left" TextAlignment="Right" Height="35" Margin="361,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" RenderTransformOrigin="0.5,0.5" KeyDown="TxtCustNoR_KeyDown">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="رقم العميل" HorizontalAlignment="Left" Margin="653,139,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtCustNameR" HorizontalAlignment="Left" TextAlignment="Right" Height="43" Margin="361,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="اسم العميل" HorizontalAlignment="Left" Margin="653,187,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtMonyR" HorizontalAlignment="Left" TextAlignment="Right" Height="43" Margin="361,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" RenderTransformOrigin="0.5,0.5" KeyDown="TxtMonyR_KeyDown" TextChanged="TxtMonyR_TextChanged">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="المبلغ المسلم" HorizontalAlignment="Left" Margin="653,235,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtDateR" HorizontalAlignment="Left" TextAlignment="Right" Height="48" Margin="361,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="تاريخ الاستلام " HorizontalAlignment="Left" Margin="653,335,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="txtCategR" HorizontalAlignment="Left" TextAlignment="Right" Height="42" Margin="361,266,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" RenderTransformOrigin="0.5,0.5" KeyDown="TxtCategR_KeyDown">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="غرض الاستلام" HorizontalAlignment="Left" Margin="653,282,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="BackR" Content="عودة" HorizontalAlignment="Left" Margin="311,471,0,0" VerticalAlignment="Top" Width="148" RenderTransformOrigin="0.5,0.5" Click="BackR_Click" Height="62" BorderBrush="#FFF88110" BorderThickness="3"  Background="#FFF88110"  Foreground="#FFF">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+    </Grid>
+</Window>
